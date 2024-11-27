@@ -1,13 +1,12 @@
-# Data Pipeline for Ingesting Sensor Data to Database
+# Data Pipeline for Ingesting Data to Database
 
 ## Description
-This project establishes a data pipeline to generate sample data and load it into a PostgreSQL database. The pipeline is orchestrated with Apache Airflow and containerized using Docker for streamlined deployment and management.
+This project establishes a data pipeline to generate sample data and load it into a PostgreSQL database. The pipeline is orchestrated with Apache Airflow (Option) and containerized using Docker for streamlined deployment and management.
 
 ## Installation
 
 ### Prerequisites
 - Docker installed on your machine. [Install Docker](https://docs.docker.com/get-docker/) if you don't have it.
-- A working directory prepared for Airflow.
 
 ### Steps
 1. **Set Up Working Directory**: 
