@@ -1,0 +1,29 @@
+{
+    "table_name": "user_info",
+    "columns": [
+        {
+            "source_column": "user_id",
+            "target_column": "user_id",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        },
+        {
+            "source_column": "age",
+            "target_column": "age",
+            "data_type": "INTEGER",
+            "transform": "none"
+        },
+        {
+            "source_column": "gender",
+            "target_column": "gender",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        },
+        {
+            "source_column": "location",
+            "target_column": "location",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        }
+    ]
+}

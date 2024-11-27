@@ -1,0 +1,41 @@
+{
+    "table_name": "raw_transaction",
+    "columns": [
+        {
+            "source_column": "order_id",
+            "target_column": "order_id",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        },
+        {
+            "source_column": "user_id",
+            "target_column": "user_id",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        },
+        {
+            "source_column": "product_id",
+            "target_column": "product_id",
+            "data_type": "VARCHAR",
+            "transform": "none"
+        },
+        {
+            "source_column": "quantity",
+            "target_column": "quantity",
+            "data_type": "INTEGER",
+            "transform": "none"
+        },
+        {
+            "source_column": "amount",
+            "target_column": "amount",
+            "data_type": "INTEGER",
+            "transform": "none"
+        },
+        {
+            "source_column": "order_date",
+            "target_column": "order_date",
+            "data_type": "DATE",
+            "transform": "none"
+        }
+    ]
+}
